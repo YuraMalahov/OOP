@@ -21,6 +21,8 @@ SOLID:
 
 2 - Open/closed principle:
     "software entities … should be open for extension, but closed for modification."
+    
+    Related patterns: template method, strategy
 
 3 - Liskov substitution principle:
     "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that       program."
