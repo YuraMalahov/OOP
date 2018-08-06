@@ -22,7 +22,7 @@ SOLID:
 2 - Open/closed principle:
     "software entities … should be open for extension, but closed for modification."
     
-    Related patterns: template method, strategy
+    Related patterns: template method, strategy, visitor
 
 3 - Liskov substitution principle:
     "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that       program."
@@ -200,7 +200,13 @@ Patterns
     communication between objects is encapsulated with a mediator object. Objects no longer      
     communicate directly with each other, but instead communicate through the mediator. 
     This reduces the dependencies between communicating objects, thereby lowering the coupling.
+    
+  18 - Visitor
+    
+    visitor design pattern is a way of separating an algorithm from an object structure on which it operates.
+    A practical result of this separation is the ability to add new operations to existent object structures without
+    modifying the structures.
 
 ******************************************************************
-******************************************************************
+
 
