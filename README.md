@@ -16,6 +16,7 @@ SOLID:
 
 1 - Single responsibility principle:
     a class should have only a single responsibility
+    
     Related patterns: facad, decorator, composite
 
 2 - Open/closed principle:
