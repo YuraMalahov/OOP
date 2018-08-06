@@ -25,7 +25,7 @@ SOLID:
     Related patterns: template method, strategy, visitor
 
 3 - Liskov substitution principle:
-    "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that       program."
+    subtypes must be substitutable for their base types
 
 4 - Interface segregation principle:
     "many client-specific interfaces are better than one general-purpose interface."
