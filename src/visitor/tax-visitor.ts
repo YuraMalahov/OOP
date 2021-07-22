@@ -1,0 +1,25 @@
+import { Liquor } from "./liquor";
+import { Necessity } from "./nesessity";
+import { Tobacco } from "./tobacco";
+import { Visitable } from "./visitable";
+import { Visitor } from "./visitor";
+
+
+export class TaxVisitor implements Visitor {
+
+  public visit(item: Visitable): string {
+    if (item instanceof Liquor) {
+      return `${item.getName()} ${item.getPrice() * 0.18}`;
+    }
+
+    if (item instanceof Tobacco) {
+      return `${item.getName()} ${item.getPrice() * 0.20}`;
+    }
+
+    if (item instanceof Necessity) {
+      return `${item.getName()} ${item.getPrice() * 0.12}`;
+    }
+
+    return '';
+  }
+}

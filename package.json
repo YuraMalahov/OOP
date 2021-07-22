@@ -1,7 +1,7 @@
 {
-  "name": "algorithms",
+  "name": "oop",
   "version": "1.0.0",
-  "description": "Playing with algorithms from book \"Algorithms\" by Robert Sedge",
+  "description": "oop",
   "main": "test4.js",
   "directories": {
     "test": "test"
